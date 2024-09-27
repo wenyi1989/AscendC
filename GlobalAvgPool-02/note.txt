@@ -1,0 +1,6 @@
+/usr/local/Ascend/ascend-toolkit/latest/python/site-packages/bin/msopgen gen -i /home/HwHiAiUser/s2/GlobalAvgPool/GlobalAvgPool.json -c ai_core-Ascend310B4 -lan cpp -out /home/HwHiAiUser/s2/GlobalAvgPool-02/Framework
+
+
+
+chown root GlobalAvgPool.json
+
