@@ -1,0 +1,51 @@
+[
+    {
+        "op": "ThreeNN",
+        "language": "cpp",
+        "input_desc": [
+            {
+                "name": "xyz1",
+                "param_type": "required",
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "fp32"
+                ]
+            },
+            {
+                "name": "xyz2",
+                "param_type": "required",
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "fp32"
+                ]
+            }
+        ],
+        "output_desc": [
+            {
+                "name": "dist",
+                "param_type": "required",
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "fp32"
+                ]
+            },
+            {
+                "name": "indices",
+                "param_type": "required",
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "int32"
+                ]
+            }
+        ]
+    }
+]
+
